@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Processing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\web development  main\loan Processing\style.css">
+<style>
+  /* .cardIcon
+{
+
+    color: red;
+}
+     */
+     h2{
+         text-align: center;
+     }
+     h4{
+        text-align: center; 
+        margin-bottom: 20px; 
+     }
+     hr{
+         width:40%;
+        margin: auto;
+        border-top: 6px solid black;
+     }
+   #cardSection
+   {
+       margin-top: 50px;;
+   }
+   #img1
+   {
+       height: 300px;
+    width: 600px;
+   }
+   #foot
+   {
+       background-color: black;
+   }
+   #inside_basic1,#inside_basic2,#inside_basic3
+   {
+       margin-top: 5%;
+   }
+   #footer_down
+   {
+       text-align:center;
+       color:white;
+   }
+   #customize
+   {
+        color: orangered;
+   }
+   #buttonId
+   {
+       text-align: center;
+   }
+
+
+</style>
+  </head>
+<body>
+    <!--------------------------------navigation bar 1---------------------------------------------------------->
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+         
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <i class="fa-solid fa-phone"></i>   9084563532 
+            </span>
+          </div>
+        </div>
+      </nav>
+      <!--------------------------------------navigation bar 2--------------------------------------------------------------------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#">Home Loan</a>
+            </div>
+          <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Services</a>
+              </li>
+            </ul>
+        </div>
+          </div>
+        </div>
+      </nav>
+      <!------------------------------------------carousel part------------------------------------------------------>
+      <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/what-is-margin-money-in-home-loan-and-how-to-arrange-it-explained-d.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.kotak.com/content/dam/Kotak/herosliderbanner/6-personal-loan-alternatives.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.kotak.com/content/dam/Kotak/article-images/hero-banners/what-is-margin-money-in-home-loan-and-how-to-arrange-it-explained-d.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br><br>
+      </div>
+      <!-----------------------------------------cards part------------------------------------------------------------------------->
+      <div>
+          <h2>Loan Products We Offer</h2>
+          <h4>Speed up the loan Process</h4>
+          <hr>
+     <div id="cardSection">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <i class="fa-solid fa-house-chimney-window fa-2x"  style="color:red; margin:auto;margin-top: 10px;"></i>
+                    <h3 style="margin:auto">1.Buying a home</h3>
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <br><br><br>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <i class="fa-solid fa-building fa-2x" class="cardIcon" style="color:red; margin:auto;margin-top: 10px;"></i>
+                    <h3 style="margin:auto">2.Refinancing</h3>
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <br><br><br>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <i class="fa-solid fa-credit-card fa-2x" class="cardIcon" style="color:red; margin:auto;margin-top: 10px;"></i>
+                    <h3 style="margin:auto">3.credit Service</h3>
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <br><br><br>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+<br><br><br>
+    </div>
+    <!--------------------------------------------------------------------------->
+      <div  class="container-fluid" style="margin: 0%;padding: 0%;">
+         <img src="https://www.kotak.com/content/dam/Kotak/article-images/a-quick-guide-to-pre-approved-persona-loan-desk.jpg" style="width:100%;padding: 0%; margin-left: 0%;margin-right: 0%;">
+         <br><br><br>
+      </div>
+      <!-------------------------------------------------------------------------->
+      <div>
+          <h2>Fast & Easy Application Process</h2>
+          <h4>Speed Up The Loan Process</h4>
+          <hr>
+          <br><br><br>
+          <div>
+            <div class="container">
+                <div class="row">
+                  
+                <div class="row">
+                  <div class="col">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                             Form Details
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Accordion Item #2
+                            </button> -->
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <!-- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Accordion Item #3
+                            </button> -->
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                          <br>
+                         <div id="buttonId"> <button type="button" class="btn btn-secondary btn-lg">Check Eligibility</button></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                <img src="data:image/jpeg;base64,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" id="img1">
+                  </div>
+                </div>
+                
+              </div>
+              <br><br><br>
+          </div>
+      </div>
+      <!------------------------------------------footer------------------------------>
+      <div class="opacity-75" id="foot">
+        <div class="container" >
+            <div class="row" >
+              <div class="col" id="inside_basic1">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>About Us</h2>
+                      <p class="card-text">Our company continues to be recognized for our ethical and inclusive culture, management quality, social responsibility, digital capabilities and more. Notable recent honors include being named one of the 2022 World’s Most Ethical Companies® by the Ethisphere® Institute, the eighth consecutive year we’ve been honored; our U.S. Bank Mobile App being rated best for customer service by Business Insider Intelligence; and being honored with a spot on the 2022 DiversityInc Top 50 Companies for Diversit</p>
+                    <br>
+                    </div>
+                  </div>
+              </div>
+              <div class="col" id="inside_basic2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Contact Us</h2>
+                      <p class="card-text">If you're outside the country and/or don't have access to mobile or online banking, call us collect and we'll accept the charges. Dial country code 1, then our number: 503-401-9991. Please note, when the line is answered, it will state "Operator, if this is an international collect call, we accept the charges.</p>
+                   <br>
+                    </div>
+                  </div>
+               
+              </div>
+              <div class="col" id="inside_basic3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Subscribe</h2>
+                      <p class="card-text">
+                        A subscription is a way to make frequent payments to a service provider. They're often used for streaming services, payday loan repayments and gym memberships. You can set one up using your card details. The service provider takes a payment from your debit or credit card when they think it's due</p>
+                    <br>
+                    </div>
+                  </div>
+                  <br><br><br>
+                  
+               
+              </div>
+              <div id="footer_down">@Copyright Kotak Mahindra Bank Limited <span id="customize"></span></div>
+              
+            </div>
+          </div>
+      </div>
